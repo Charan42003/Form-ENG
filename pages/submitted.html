@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You- Application submitted successfully</title>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Ruluko&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        body {
+            padding: 20px;
+            background: rgb(130, 106, 251);
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrapper {
+            padding: 100px 4%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo-img {
+            width: 170px;
+            height: 100px;
+        }
+        h1 {
+            color: white;
+            padding-bottom: 20px;
+            font-size: 40px;
+            text-align: center;
+        }
+        p {
+            color: white;
+            text-align: center;
+        }
+        #darken {
+            margin-bottom: 14px;
+            margin-top: 10px;
+            font-weight: bold
+        }
+        .icon {
+            width: 120px;
+            height: auto;
+        }
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: white;
+            padding-bottom: 10px;
+            font-family: 'Ruluko', sans-serif;
+            margin-top: 120px;
+            position:absolute;
+            bottom: 20px;
+        }
+
+        /*Responsive*/
+        @media screen and (max-width: 650px) {
+            footer {
+                font-size: 18px;
+            }
+        }
+        @media  screen and (max-width: 355px) {
+            footer {
+                font-size: 16px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <!-- <img src="./Digital-fusion-white.png" alt="logo" class="logo-img"> -->
+            <h1>Thank You!</h1>
+            <div class="icon">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" xml:space="preserve" fill="#000000" transform="matrix(1, 0, 0, 1, 0, 0)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.1"></g>
+                    <g id="SVGRepo_iconCarrier"> 
+                        <circle style="fill:#25AE88;" cx="25" cy="25" r="25"></circle> 
+                        <polyline style="fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points=" 38,15 22,33 12,25 "></polyline> 
+                    </g>
+                </svg>
+            </div>
+            <p id="darken">
+                Your application submitted successfully
+            </p>
+            <p>
+                Our team will work on your application and connect with you very soon!
+            </p>
+            
+        </div>
+    </div>
+</body>
+</html>
